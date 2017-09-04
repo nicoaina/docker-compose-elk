@@ -39,6 +39,16 @@ services:
     depends_on:
       - elasticsearch
 
+  filebeat:
+    build: filebeat/
+    volumes:
+      - ./filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - ./sourcelog:/usr/share/filebeat/sourcelog
+    networks:
+      - elk
+    depends_on:
+      - logstash
+
 networks:
 
   elk:

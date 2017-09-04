@@ -1,0 +1,10 @@
+filebeat.prospectors:
+- input_type: log
+  paths:
+    - /usr/share/filebeat/sourcelog/*.log
+  document_type: news
+  fields:
+    doc_type: news
+
+output.logstash:
+  hosts: ["logstash:5000"]
