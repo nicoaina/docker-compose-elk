@@ -2,6 +2,40 @@ version: '2'
 
 services:
 
+  zabbix-mysql:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: "password"
+    networks:
+      - elk
+
+  zabbix-server:
+    image: zabbix/zabbix-server-mysql
+    environment:
+      DB_SERVER_HOST: "zabbix-mysql" 
+      MYSQL_USER: "root" 
+      MYSQL_PASSWORD: "password"
+    networks:
+      - elk
+    depends_on:
+      - zabbix-mysql
+
+  zabbix:
+    image: zabbix/zabbix-web-apache-mysql
+    ports:
+      - "8080:80"
+    environment:
+      DB_SERVER_HOST: "zabbix-mysql"
+      MYSQL_USER: "root"
+      MYSQL_PASSWORD: "password"
+      ZBX_SERVER_HOST: "zabbix-server"
+      TZ: "Europe/Paris"
+    networks:
+      - elk
+    depends_on:
+      - zabbix-mysql
+      - zabbix-server
+
   elasticsearch:
     build: elasticsearch/
     volumes:
@@ -27,6 +61,7 @@ services:
       - elk
     depends_on:
       - elasticsearch
+      - zabbix-server
 
   kibana:
     build: kibana/
