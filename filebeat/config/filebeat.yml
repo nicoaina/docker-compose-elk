@@ -7,6 +7,10 @@ filebeat:
       paths:
         - /usr/share/filebeat/sourcelog/a.log
       input_type: log
+      multiline:
+        pattern: ^([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{2}-[aA-zZ]{3}-[0-9]{4})
+        negate: true
+        match: after
       fields:
         type: tomcat-catalina
       fields_under_root: true
