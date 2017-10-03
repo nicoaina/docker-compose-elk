@@ -18,6 +18,7 @@ services:
     build: logstash/
     volumes:
       - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml
+      - ./logstash/patterns:/usr/share/logstash/patterns
       - ./logstash/pipeline:/usr/share/logstash/pipeline
     ports:
       - "5000:5000"
