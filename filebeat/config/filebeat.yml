@@ -1,10 +1,23 @@
-filebeat.prospectors:
-- input_type: log
-  paths:
-    - /usr/share/filebeat/sourcelog/*.log
-  document_type: news
-  fields:
-    doc_type: news
+############################# Filebeat ######################################
+filebeat:
+  # List of prospectors to fetch data.
+  prospectors:
+    # Each - is a prospector. Below are the prospector specific configurations
+    -
+      paths:
+        - /usr/share/filebeat/sourcelog/a.log
+      input_type: log
+      fields:
+        type: tomcat-catalina
+      fields_under_root: true
+    -
+      paths:
+        - /usr/share/filebeat/sourcelog/b.log
+      input_type: log
+      fields:
+        type: tomcat-access
+      fields_under_root: true
 
-output.logstash:
-  hosts: ["logstash:5000"]
+output:
+  logstash:
+    hosts: ["logstash:5000"]

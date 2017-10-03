@@ -1,4 +1,111 @@
-H E L L O
-W O R L D
-F R O M
-F I L E B E A T
+27-Sep-2017 15:37:28.652 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Sep-2017 15:37:28.663 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Sep-2017 15:37:28.669 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+27-Sep-2017 15:37:30.574 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'disableKeepAlivePercentage' to '50' did not find a matching property.
+27-Sep-2017 15:37:30.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.11
+27-Sep-2017 15:37:30.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 21:02:52 UTC
+27-Sep-2017 15:37:30.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.11.0
+27-Sep-2017 15:37:30.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Sep-2017 15:37:30.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+27-Sep-2017 15:37:30.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Sep-2017 15:37:30.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+27-Sep-2017 15:37:30.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-8u131-b11-1~bpo8+1-b11
+27-Sep-2017 15:37:30.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Sep-2017 15:37:30.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /srv/dw_mpa/tomcat-mpa-ihm-8080
+27-Sep-2017 15:37:30.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /srv/dw_mpa/tomcat-mpa-ihm-8080
+27-Sep-2017 15:37:30.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/srv/dw_mpa/tomcat-mpa-ihm-8080/conf/logging.properties
+27-Sep-2017 15:37:30.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Sep-2017 15:37:30.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+27-Sep-2017 15:37:30.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+27-Sep-2017 15:37:30.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+27-Sep-2017 15:37:30.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+27-Sep-2017 15:37:30.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=/srv/dw_mpa/logback-mpa-ihm.xml
+27-Sep-2017 15:37:30.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+27-Sep-2017 15:37:30.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Sep-2017 15:37:30.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Sep-2017 15:37:30.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/srv/dw_mpa/tomcat-mpa-ihm-8080
+27-Sep-2017 15:37:30.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/srv/dw_mpa/tomcat-mpa-ihm-8080
+27-Sep-2017 15:37:30.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/srv/dw_mpa/tomcat-mpa-ihm-8080/temp
+27-Sep-2017 15:37:30.735 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+27-Sep-2017 15:37:31.006 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Sep-2017 15:37:31.067 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Sep-2017 15:37:31.074 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1636 ms
+27-Sep-2017 15:37:31.171 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-Sep-2017 15:37:31.174 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.11
+27-Sep-2017 15:37:31.245 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/mpa-ihm.war
+27-Sep-2017 15:37:33.039 SEVERE [localhost-startStop-1] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 8 column 11: The element type "web-app" must be terminated by the matching end-tag "</web-app>".
+ org.xml.sax.SAXParseException; systemId: file:/srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/mpa-ihm/WEB-INF/web.xml; lineNumber: 8; columnNumber: 11; The element type "web-app" must be terminated by the matching end-tag "</web-app>".
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+27-Sep-2017 15:37:33.043 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at file:/srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/mpa-ihm/WEB-INF/web.xml
+ org.xml.sax.SAXParseException; systemId: file:/srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/mpa-ihm/WEB-INF/web.xml; lineNumber: 8; columnNumber: 11; The element type "web-app" must be terminated by the matching end-tag "</web-app>".
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+27-Sep-2017 15:37:33.044 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line 8 column 11
+27-Sep-2017 15:37:33.157 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+27-Sep-2017 15:37:33.176 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+27-Sep-2017 15:37:33.233 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/mpa-ihm.war has finished in 1,987 ms
+27-Sep-2017 15:37:33.240 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/host-manager
+27-Sep-2017 15:37:33.553 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/host-manager has finished in 314 ms
+27-Sep-2017 15:37:33.553 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/ROOT
+27-Sep-2017 15:37:33.616 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/ROOT has finished in 63 ms
+27-Sep-2017 15:37:33.716 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/examples
+27-Sep-2017 15:37:34.436 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/examples has finished in 720 ms
+27-Sep-2017 15:37:34.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/docs
+27-Sep-2017 15:37:34.478 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/docs has finished in 41 ms
+27-Sep-2017 15:37:34.493 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+27-Sep-2017 15:37:34.511 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3436 ms
