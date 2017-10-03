@@ -109,3 +109,15 @@
 27-Sep-2017 15:37:34.478 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /srv/dw_mpa/tomcat-mpa-ihm-8080/webapps/docs has finished in 41 ms
 27-Sep-2017 15:37:34.493 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
 27-Sep-2017 15:37:34.511 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3436 ms
+03-Oct-2017 11:00:13.300 INFO [http-nio-8080-exec-2] org.glassfish.jersey.filter.LoggingFilter.log 1 * Server has received a request on thread http-nio-8080-exec-2
+1 > DELETE http://10.40.27.7/mpa-ihm/my-public-alerts/api/login
+1 > accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+1 > connection: close
+1 > cookie: $Version=1;token=0ee0967b-a89d-4934-9a87-b27d5ea0de76
+1 > host: 10.40.27.7
+1 > user-agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_131)
+1 > x-forwarded-for: 10.40.27.36
+03-Oct-2017 11:00:13.789 INFO [http-nio-8080-exec-2] org.glassfish.jersey.filter.LoggingFilter.log 1 * Server responded with a response on thread http-nio-8080-exec-2
+1 < 204
+1 < Set-Cookie: token=expired;Version=1;Path=/;Expires=Thu, 01 Jan 1970 00:00:00 GMT
+27-Sep-2017 15:37:30.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/srv/dw_mpa/tomcat-mpa-ihm-8080
